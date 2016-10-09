@@ -7,19 +7,180 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161009085459"/>
+		date="20161009140858"/>
 	<dependencies>
-		<module organisation="org.webjars" name="bootstrap">
-			<revision name="3.1.1-1" status="release" pubdate="20140428041722" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
-				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3989" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.webjars\bootstrap\ivy-3.1.1-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/bootstrap/3.1.1-1/bootstrap-3.1.1-1.pom"/>
-				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="3.1.1-1" rev-constraint-default="3.1.1-1" rev-constraint-dynamic="3.1.1-1" callerrev="1.0-SNAPSHOT"/>
+		<module organisation="com.typesafe.play" name="play-ws_2.10">
+			<revision name="2.3.4" status="release" pubdate="20150421195505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="38">
+				<metadata-artifact status="no" details="" size="3858" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-ws_2.10\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-ws_2.10/2.3.4/play-ws_2.10-2.3.4.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="bootstrap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3661" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.webjars\bootstrap\srcs\bootstrap-3.1.1-1-sources.jar">
-						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/org/webjars/bootstrap/3.1.1-1/bootstrap-3.1.1-1-sources.jar"/>
+					<artifact name="play-ws_2.10" type="jar" ext="jar" status="no" details="" size="610848" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-ws_2.10\jars\play-ws_2.10-2.3.4.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-ws_2.10/2.3.4/play-ws_2.10-2.3.4.jar"/>
 					</artifact>
-					<artifact name="bootstrap" type="jar" ext="jar" status="no" details="" size="271927" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.1.1-1.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/webjars/bootstrap/3.1.1-1/bootstrap-3.1.1-1.jar"/>
+					<artifact name="play-ws_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="54827" time="1901" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-ws_2.10\srcs\play-ws_2.10-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-ws_2.10/2.3.4/play-ws_2.10-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="oauth.signpost" name="signpost-commonshttp4">
+			<revision name="1.2.1.2" status="release" pubdate="20120226031621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3939" time="0" location="C:\Users\Mabbasi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\ivy-1.2.1.2.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\oauth.signpost\signpost-commonshttp4\1.2.1.2\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="signpost-commonshttp4" type="jar" ext="jar" status="no" details="" size="6512" time="0" location="C:\Users\Mabbasi\.ivy2\local\oauth.signpost\signpost-commonshttp4\1.2.1.2\jars\signpost-commonshttp4.jar">
+						<origin-location is-local="true" location="C:\Users\Mabbasi\.ivy2\local\oauth.signpost\signpost-commonshttp4\1.2.1.2\jars\signpost-commonshttp4.jar"/>
+					</artifact>
+					<artifact name="signpost-commonshttp4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4178" time="0" location="C:\Users\Mabbasi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\srcs\signpost-commonshttp4-1.2.1.2-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.0.1" status="release" pubdate="20091209142018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="44">
+				<license name="Apache License" url="../LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5169" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.0.1.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\org.apache.httpcomponents\httpclient\4.0.1\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="291037" time="0" location="C:\Users\Mabbasi\.ivy2\local\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar">
+						<origin-location is-local="true" location="C:\Users\Mabbasi\.ivy2\local\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar"/>
+					</artifact>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="389445" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.apache.httpcomponents\httpclient\srcs\httpclient-4.0.1-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.0.1" status="release" pubdate="20090621070836" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="43">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4451" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.0.1.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\org.apache.httpcomponents\httpcore\4.0.1\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="291844" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.apache.httpcomponents\httpcore\srcs\httpcore-4.0.1-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="172888" time="0" location="C:\Users\Mabbasi\.ivy2\local\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar">
+						<origin-location is-local="true" location="C:\Users\Mabbasi\.ivy2\local\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="oauth.signpost" name="signpost-core">
+			<revision name="1.2.1.2" status="release" pubdate="20120226031606" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3389" time="0" location="C:\Users\Mabbasi\.ivy2\cache\oauth.signpost\signpost-core\ivy-1.2.1.2.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\oauth.signpost\signpost-core\1.2.1.2\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="signpost-core" type="jar" ext="jar" status="no" details="" size="45277" time="0" location="C:\Users\Mabbasi\.ivy2\local\oauth.signpost\signpost-core\1.2.1.2\jars\signpost-core.jar">
+						<origin-location is-local="true" location="C:\Users\Mabbasi\.ivy2\local\oauth.signpost\signpost-core\1.2.1.2\jars\signpost-core.jar"/>
+					</artifact>
+					<artifact name="signpost-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50062" time="0" location="C:\Users\Mabbasi\.ivy2\cache\oauth.signpost\signpost-core\srcs\signpost-core-1.2.1.2-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="async-http-client">
+			<revision name="1.8.8" status="release" pubdate="20140428134702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="40">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="6808" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.ning\async-http-client\ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.8.8/async-http-client-1.8.8.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="async-http-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="308916" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.ning\async-http-client\srcs\async-http-client-1.8.8-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.8.8/async-http-client-1.8.8-sources.jar"/>
+					</artifact>
+					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="526740" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.8.8/async-http-client-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-cache_2.10">
+			<revision name="2.3.4" status="release" pubdate="20150421192858" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="36">
+				<metadata-artifact status="no" details="" size="3325" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-cache_2.10\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-cache_2.10/2.3.4/play-cache_2.10-2.3.4.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-cache_2.10" type="jar" ext="jar" status="no" details="" size="44270" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-cache_2.10\jars\play-cache_2.10-2.3.4.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-cache_2.10/2.3.4/play-cache_2.10-2.3.4.jar"/>
+					</artifact>
+					<artifact name="play-cache_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7310" time="1457" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-cache_2.10\srcs\play-cache_2.10-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-cache_2.10/2.3.4/play-cache_2.10-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.ehcache" name="ehcache-core">
+			<revision name="2.6.8" status="release" pubdate="20140125032214" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ehcache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="src/assemble/EHCACHE-CORE-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="8378" time="0" location="C:\Users\Mabbasi\.ivy2\cache\net.sf.ehcache\ehcache-core\ivy-2.6.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sf/ehcache/ehcache-core/2.6.8/ehcache-core-2.6.8.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.6.8" rev-constraint-default="2.6.8" rev-constraint-dynamic="2.6.8" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ehcache-core" type="jar" ext="jar" status="no" details="" size="1347353" time="0" location="C:\Users\Mabbasi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sf/ehcache/ehcache-core/2.6.8/ehcache-core-2.6.8.jar"/>
+					</artifact>
+					<artifact name="ehcache-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1008654" time="0" location="C:\Users\Mabbasi\.ivy2\cache\net.sf.ehcache\ehcache-core\srcs\ehcache-core-2.6.8-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/net/sf/ehcache/ehcache-core/2.6.8/ehcache-core-2.6.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="anorm_2.10">
+			<revision name="2.3.4" status="release" pubdate="20150421202232" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="35">
+				<metadata-artifact status="no" details="" size="3256" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\anorm_2.10\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/play/anorm_2.10/2.3.4/anorm_2.10-2.3.4.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="anorm_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25148" time="3422" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\anorm_2.10\srcs\anorm_2.10-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/anorm_2.10/2.3.4/anorm_2.10-2.3.4-sources.jar"/>
+					</artifact>
+					<artifact name="anorm_2.10" type="jar" ext="jar" status="no" details="" size="441652" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\anorm_2.10\jars\anorm_2.10-2.3.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/play/anorm_2.10/2.3.4/anorm_2.10-2.3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-jdbc_2.10">
+			<revision name="2.3.4" status="release" pubdate="20150421195144" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
+				<metadata-artifact status="no" details="" size="3693" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-jdbc_2.10/2.3.4/play-jdbc_2.10-2.3.4.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-jdbc_2.10" type="jar" ext="jar" status="no" details="" size="203868" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-jdbc_2.10/2.3.4/play-jdbc_2.10-2.3.4.jar"/>
+					</artifact>
+					<artifact name="play-jdbc_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12745" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\srcs\play-jdbc_2.10-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-jdbc_2.10/2.3.4/play-jdbc_2.10-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.3.175" status="release" pubdate="20140118123415" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="34">
+				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2454" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.h2database\h2\ivy-1.3.175.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\com.h2database\h2\1.3.175\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.3.175" rev-constraint-default="1.3.175" rev-constraint-dynamic="1.3.175" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1638306" time="0" location="C:\Users\Mabbasi\.ivy2\local\com.h2database\h2\1.3.175\jars\h2.jar">
+						<origin-location is-local="true" location="C:\Users\Mabbasi\.ivy2\local\com.h2database\h2\1.3.175\jars\h2.jar"/>
+					</artifact>
+					<artifact name="h2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1155851" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.h2database\h2\srcs\h2-1.3.175-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/com/h2database/h2/1.3.175/h2-1.3.175-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jolbox" name="bonecp">
+			<revision name="0.8.0.RELEASE" status="release" pubdate="20131023074844" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="33">
+				<license name="Apache v2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="8109" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.jolbox\bonecp\ivy-0.8.0.RELEASE.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\com.jolbox\bonecp\0.8.0.RELEASE\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="0.8.0.RELEASE" rev-constraint-default="0.8.0.RELEASE" rev-constraint-dynamic="0.8.0.RELEASE" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="bonecp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="101324" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.jolbox\bonecp\srcs\bonecp-0.8.0.RELEASE-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar"/>
+					</artifact>
+					<artifact name="bonecp" type="jar" ext="jar" status="no" details="" size="110600" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.jolbox\bonecp\jars\bonecp-0.8.0.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -34,6 +195,21 @@
 					</artifact>
 					<artifact name="play_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="385073" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play_2.10\srcs\play_2.10-2.3.4-sources.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.3.4/play_2.10-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="16.0.1" status="release" pubdate="20140203174528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5610" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.google.guava\guava\ivy-16.0.1.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\com.google.guava\guava\16.0.1\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="16.0.1" rev-constraint-default="16.0.1" rev-constraint-dynamic="16.0.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2228009" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.google.guava\guava\jars\guava-16.0.1.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/com/google/guava/guava/16.0.1/guava-16.0.1.jar"/>
+					</artifact>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1261127" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.google.guava\guava\srcs\guava-16.0.1-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -232,6 +408,21 @@
 					</artifact>
 					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1131879" time="0" location="C:\Users\Mabbasi\.ivy2\cache\io.netty\netty\srcs\netty-3.9.3.Final-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.9.3.Final/netty-3.9.3.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126152410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4203" time="0" location="C:\Users\Mabbasi\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\commons-logging\commons-logging\1.1.1\ivys\ivy.xml"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="C:\Users\Mabbasi\.ivy2\local\commons-logging\commons-logging\1.1.1\jars\commons-logging.jar">
+						<origin-location is-local="true" location="C:\Users\Mabbasi\.ivy2\local\commons-logging\commons-logging\1.1.1\jars\commons-logging.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="C:\Users\Mabbasi\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

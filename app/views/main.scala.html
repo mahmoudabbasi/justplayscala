@@ -6,26 +6,16 @@
     <head>
 
         <title>@title</title>
-        <title>@title</title>
-        @* for chrome tests*@
+        @*<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">*@
         <link rel="stylesheet" media="screen" href="stylesheets/main.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     </head>
 
     <body>
        @content
-        <div>test3</div>
-        <div id="footer">
-            <div class="container">
-                <p class="text-muted">Play includes a simple data access layer
-                    called Anorm that uses plain SQL to interact with the database and
-                    rovides an API to parse and transform the resulting datasets.</p>
-            </div>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     </body>
 </html>

@@ -1,40 +1,40 @@
 package controllers
 
-import models.Employee
-import play.api.data.Form
-import play.api.data.Forms._
 import play.api.mvc._
-import views.html
 
 object Application extends Controller {
 
-  implicit val timeout = 60
-
   def index = Action {
-    Ok(views.html.index("hello"))
+    Ok(views.html.index())
   }
 
-  val employeeForm = Form(
-    mapping(
-      "ID" -> ignored(0: Long),
-      "NAME" -> nonEmptyText,
-      "ADDRESS" -> nonEmptyText,
-      "DOB" -> date("yyyy-MM-dd"),
-      "JOININGDATE" -> date("yyyy-MM-dd"),
-      "DESIGNATION" -> nonEmptyText)(Employee.apply)(Employee.unapply))
-
-  def create = Action {
-    Ok(html.createForm(employeeForm))
-  }
-
-//  def index1 = Action {
-//   // Home
+//  implicit val timeout = 60
+//
+//  def index = Action {
+//    Ok(views.html.index("hello"))
 //  }
-
-  //val Home = Redirect(routes.Application.list())
-
-  def list() = {
-
-  }
+//
+//  val employeeForm = Form(
+//    mapping(
+//      "ID" -> ignored(0: Long),
+//      "NAME" -> nonEmptyText,
+//      "ADDRESS" -> nonEmptyText,
+//      "DOB" -> date("yyyy-MM-dd"),
+//      "JOININGDATE" -> date("yyyy-MM-dd"),
+//      "DESIGNATION" -> nonEmptyText)(Employee.apply)(Employee.unapply))
+//
+//  def create = Action {
+//    Ok(html.createForm(employeeForm))
+//  }
+//
+////  def index1 = Action {
+////   // Home
+////  }
+//
+//  //val Home = Redirect(routes.Application.list())
+//
+//  def list() = {
+//
+//  }
 
 }

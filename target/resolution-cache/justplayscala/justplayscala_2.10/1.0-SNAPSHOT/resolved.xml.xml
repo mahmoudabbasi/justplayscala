@@ -4,7 +4,7 @@
 		module="justplayscala_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20161009085457"
+		publication="20161009142629"
 	>
 		<description>
 		justplayscala
@@ -38,9 +38,9 @@
 		<dependency org="com.typesafe.play" name="play_2.10" rev="2.3.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-test_2.10" rev="2.3.4" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-docs_2.10" rev="2.3.4" conf="docs->default(compile)"/>
-		<dependency org="org.webjars" name="bootstrap" rev="3.1.1-1" conf="compile->default(compile)"/>
-		<dependency org="org.webjars" name="bootswatch-yeti" rev="3.1.1" conf="compile->default(compile)"/>
-		<dependency org="org.webjars" name="html5shiv" rev="3.7.0" conf="compile->default(compile)"/>
-		<dependency org="org.webjars" name="respond" rev="1.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-jdbc_2.10" rev="2.3.4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="anorm_2.10" rev="2.3.4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-cache_2.10" rev="2.3.4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ws_2.10" rev="2.3.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
