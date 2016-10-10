@@ -54,7 +54,10 @@ object Authentication extends Controller {
 
 
   def authenticate1 = Action {
-    Ok("Hello world")
+    Redirect(routes.successed.index).withNewSession.flashing(
+      "success" -> "You've been logged out"
+    )
+    //Ok("Hello world")
     //CreateUser.
 //    CreateUser.bindFromRequest.fold(
 //      formWithErrors => BadRequest(html.createform(formWithErrors)),

@@ -11,6 +11,7 @@ POST    /login                      controllers.Authentication.authenticate
 GET     /logout                     controllers.Authentication.logout
 GET     /create                     controllers.Authentication.create
 POST    /createuser                 controllers.Authentication.authenticate1
+GET     /success                     controllers.successed.index
 
 # Restricted content
 GET     /restricted                 controllers.Restricted.index

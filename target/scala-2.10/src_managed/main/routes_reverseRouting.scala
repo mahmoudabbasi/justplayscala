@@ -1,6 +1,6 @@
 // @SOURCE:D:/project/Lesson1/justplayscala/conf/routes
-// @HASH:a915d7c7ecf7c5030ce52c6db2b5b53606d37c15
-// @DATE:Mon Oct 10 13:41:08 IRST 2016
+// @HASH:0e24671de55594c2d1ebbffea0ed16cc52b358f6
+// @DATE:Mon Oct 10 14:00:51 IRST 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -14,8 +14,9 @@ import _root_.controllers.Assets.Asset
 import Router.queryString
 
 
-// @LINE:19
-// @LINE:16
+// @LINE:20
+// @LINE:17
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -24,28 +25,14 @@ import Router.queryString
 // @LINE:6
 package controllers {
 
-// @LINE:19
+// @LINE:20
 class ReverseAssets {
 
 
-// @LINE:19
+// @LINE:20
 def versioned(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
-}
-                        
-
-}
-                          
-
-// @LINE:16
-class ReverseRestricted {
-
-
-// @LINE:16
-def index(): Call = {
-   import ReverseRouteContext.empty
-   Call("GET", _prefix + { _defaultPrefix } + "restricted")
 }
                         
 
@@ -98,6 +85,20 @@ def login(): Call = {
 }
                           
 
+// @LINE:17
+class ReverseRestricted {
+
+
+// @LINE:17
+def index(): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "restricted")
+}
+                        
+
+}
+                          
+
 // @LINE:6
 class ReverseApplication {
 
@@ -111,12 +112,27 @@ def index(): Call = {
 
 }
                           
+
+// @LINE:14
+class Reversesuccessed {
+
+
+// @LINE:14
+def index(): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "success")
+}
+                        
+
+}
+                          
 }
                   
 
 
-// @LINE:19
-// @LINE:16
+// @LINE:20
+// @LINE:17
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -126,34 +142,16 @@ def index(): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:19
+// @LINE:20
 class ReverseAssets {
 
 
-// @LINE:19
+// @LINE:20
 def versioned : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.versioned",
    """
       function(file) {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("file", file)})
-      }
-   """
-)
-                        
-
-}
-              
-
-// @LINE:16
-class ReverseRestricted {
-
-
-// @LINE:16
-def index : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Restricted.index",
-   """
-      function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "restricted"})
       }
    """
 )
@@ -228,6 +226,24 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:17
+class ReverseRestricted {
+
+
+// @LINE:17
+def index : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Restricted.index",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "restricted"})
+      }
+   """
+)
+                        
+
+}
+              
+
 // @LINE:6
 class ReverseApplication {
 
@@ -245,12 +261,31 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 
 }
               
+
+// @LINE:14
+class Reversesuccessed {
+
+
+// @LINE:14
+def index : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.successed.index",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "success"})
+      }
+   """
+)
+                        
+
+}
+              
 }
         
 
 
-// @LINE:19
-// @LINE:16
+// @LINE:20
+// @LINE:17
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -260,26 +295,13 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:19
+// @LINE:20
 class ReverseAssets {
 
 
-// @LINE:19
+// @LINE:20
 def versioned(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.versioned(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "versioned", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
-)
-                      
-
-}
-                          
-
-// @LINE:16
-class ReverseRestricted {
-
-
-// @LINE:16
-def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Restricted.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Restricted", "index", Seq(), "GET", """ Restricted content""", _prefix + """restricted""")
 )
                       
 
@@ -327,6 +349,19 @@ def login(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
+// @LINE:17
+class ReverseRestricted {
+
+
+// @LINE:17
+def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Restricted.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Restricted", "index", Seq(), "GET", """ Restricted content""", _prefix + """restricted""")
+)
+                      
+
+}
+                          
+
 // @LINE:6
 class ReverseApplication {
 
@@ -334,6 +369,19 @@ class ReverseApplication {
 // @LINE:6
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "index", Seq(), "GET", """ Home page""", _prefix + """""")
+)
+                      
+
+}
+                          
+
+// @LINE:14
+class Reversesuccessed {
+
+
+// @LINE:14
+def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.successed.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.successed", "index", Seq(), "GET", """""", _prefix + """success""")
 )
                       
 

@@ -1,6 +1,6 @@
 // @SOURCE:D:/project/Lesson1/justplayscala/conf/routes
-// @HASH:a915d7c7ecf7c5030ce52c6db2b5b53606d37c15
-// @DATE:Mon Oct 10 13:41:08 IRST 2016
+// @HASH:0e24671de55594c2d1ebbffea0ed16cc52b358f6
+// @DATE:Mon Oct 10 14:00:51 IRST 2016
 
 
 import play.core._
@@ -73,20 +73,27 @@ controllers.Authentication.authenticate1,
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Authentication", "authenticate1", Nil,"POST", """""", Routes.prefix + """createuser"""))
         
 
-// @LINE:16
-private[this] lazy val controllers_Restricted_index6_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("restricted"))))
-private[this] lazy val controllers_Restricted_index6_invoker = createInvoker(
+// @LINE:14
+private[this] lazy val controllers_successed_index6_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("success"))))
+private[this] lazy val controllers_successed_index6_invoker = createInvoker(
+controllers.successed.index,
+HandlerDef(this.getClass.getClassLoader, "", "controllers.successed", "index", Nil,"GET", """""", Routes.prefix + """success"""))
+        
+
+// @LINE:17
+private[this] lazy val controllers_Restricted_index7_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("restricted"))))
+private[this] lazy val controllers_Restricted_index7_invoker = createInvoker(
 controllers.Restricted.index,
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Restricted", "index", Nil,"GET", """ Restricted content""", Routes.prefix + """restricted"""))
         
 
-// @LINE:19
-private[this] lazy val controllers_Assets_versioned7_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
-private[this] lazy val controllers_Assets_versioned7_invoker = createInvoker(
+// @LINE:20
+private[this] lazy val controllers_Assets_versioned8_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+private[this] lazy val controllers_Assets_versioned8_invoker = createInvoker(
 controllers.Assets.versioned(fakeValue[String], fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "versioned", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Authentication.login"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Authentication.authenticate"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """logout""","""controllers.Authentication.logout"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """create""","""controllers.Authentication.create"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """createuser""","""controllers.Authentication.authenticate1"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """restricted""","""controllers.Restricted.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.versioned(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Authentication.login"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Authentication.authenticate"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """logout""","""controllers.Authentication.logout"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """create""","""controllers.Authentication.create"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """createuser""","""controllers.Authentication.authenticate1"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """success""","""controllers.successed.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """restricted""","""controllers.Restricted.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.versioned(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]]
 }}
@@ -142,18 +149,26 @@ case controllers_Authentication_authenticate15_route(params) => {
 }
         
 
-// @LINE:16
-case controllers_Restricted_index6_route(params) => {
+// @LINE:14
+case controllers_successed_index6_route(params) => {
    call { 
-        controllers_Restricted_index6_invoker.call(controllers.Restricted.index)
+        controllers_successed_index6_invoker.call(controllers.successed.index)
    }
 }
         
 
-// @LINE:19
-case controllers_Assets_versioned7_route(params) => {
+// @LINE:17
+case controllers_Restricted_index7_route(params) => {
+   call { 
+        controllers_Restricted_index7_invoker.call(controllers.Restricted.index)
+   }
+}
+        
+
+// @LINE:20
+case controllers_Assets_versioned8_route(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_versioned7_invoker.call(controllers.Assets.versioned(path, file))
+        controllers_Assets_versioned8_invoker.call(controllers.Assets.versioned(path, file))
    }
 }
         
