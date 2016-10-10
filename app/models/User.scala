@@ -46,6 +46,13 @@ object User {
      }
    }
 
+  def createUser (nationalcode : String, name : String, password : String) =
+  {
+    val ss = User(nationalcode ,name , password) ;
+    create(ss)
+
+  }
+
   def create (user:User): User =
   {
     DB.withConnection { implicit connection =>

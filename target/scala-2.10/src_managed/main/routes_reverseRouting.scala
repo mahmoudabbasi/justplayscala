@@ -1,6 +1,6 @@
 // @SOURCE:D:/project/Lesson1/justplayscala/conf/routes
-// @HASH:c861d092282712d9e90a2aec1c0ccf86f3bd9258
-// @DATE:Sun Oct 09 13:31:13 IRST 2016
+// @HASH:a915d7c7ecf7c5030ce52c6db2b5b53606d37c15
+// @DATE:Mon Oct 10 13:41:08 IRST 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -14,19 +14,21 @@ import _root_.controllers.Assets.Asset
 import Router.queryString
 
 
-// @LINE:17
-// @LINE:14
+// @LINE:19
+// @LINE:16
+// @LINE:13
+// @LINE:12
 // @LINE:11
 // @LINE:10
 // @LINE:9
 // @LINE:6
 package controllers {
 
-// @LINE:17
+// @LINE:19
 class ReverseAssets {
 
 
-// @LINE:17
+// @LINE:19
 def versioned(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
@@ -36,11 +38,11 @@ def versioned(file:String): Call = {
 }
                           
 
-// @LINE:14
+// @LINE:16
 class ReverseRestricted {
 
 
-// @LINE:14
+// @LINE:16
 def index(): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix + { _defaultPrefix } + "restricted")
@@ -50,16 +52,32 @@ def index(): Call = {
 }
                           
 
+// @LINE:13
+// @LINE:12
 // @LINE:11
 // @LINE:10
 // @LINE:9
 class ReverseAuthentication {
 
 
+// @LINE:12
+def create(): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "create")
+}
+                        
+
 // @LINE:11
 def logout(): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix + { _defaultPrefix } + "logout")
+}
+                        
+
+// @LINE:13
+def authenticate1(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "createuser")
 }
                         
 
@@ -97,8 +115,10 @@ def index(): Call = {
                   
 
 
-// @LINE:17
-// @LINE:14
+// @LINE:19
+// @LINE:16
+// @LINE:13
+// @LINE:12
 // @LINE:11
 // @LINE:10
 // @LINE:9
@@ -106,11 +126,11 @@ def index(): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:17
+// @LINE:19
 class ReverseAssets {
 
 
-// @LINE:17
+// @LINE:19
 def versioned : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.versioned",
    """
@@ -124,11 +144,11 @@ def versioned : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:14
+// @LINE:16
 class ReverseRestricted {
 
 
-// @LINE:14
+// @LINE:16
 def index : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Restricted.index",
    """
@@ -142,11 +162,24 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:13
+// @LINE:12
 // @LINE:11
 // @LINE:10
 // @LINE:9
 class ReverseAuthentication {
 
+
+// @LINE:12
+def create : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Authentication.create",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "create"})
+      }
+   """
+)
+                        
 
 // @LINE:11
 def logout : JavascriptReverseRoute = JavascriptReverseRoute(
@@ -154,6 +187,17 @@ def logout : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function() {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "logout"})
+      }
+   """
+)
+                        
+
+// @LINE:13
+def authenticate1 : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Authentication.authenticate1",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "createuser"})
       }
    """
 )
@@ -205,8 +249,10 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:17
-// @LINE:14
+// @LINE:19
+// @LINE:16
+// @LINE:13
+// @LINE:12
 // @LINE:11
 // @LINE:10
 // @LINE:9
@@ -214,11 +260,11 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:17
+// @LINE:19
 class ReverseAssets {
 
 
-// @LINE:17
+// @LINE:19
 def versioned(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.versioned(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "versioned", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -227,11 +273,11 @@ def versioned(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.a
 }
                           
 
-// @LINE:14
+// @LINE:16
 class ReverseRestricted {
 
 
-// @LINE:14
+// @LINE:16
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Restricted.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Restricted", "index", Seq(), "GET", """ Restricted content""", _prefix + """restricted""")
 )
@@ -240,15 +286,29 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
+// @LINE:13
+// @LINE:12
 // @LINE:11
 // @LINE:10
 // @LINE:9
 class ReverseAuthentication {
 
 
+// @LINE:12
+def create(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Authentication.create(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Authentication", "create", Seq(), "GET", """""", _prefix + """create""")
+)
+                      
+
 // @LINE:11
 def logout(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Authentication.logout(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Authentication", "logout", Seq(), "GET", """""", _prefix + """logout""")
+)
+                      
+
+// @LINE:13
+def authenticate1(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Authentication.authenticate1(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Authentication", "authenticate1", Seq(), "POST", """""", _prefix + """createuser""")
 )
                       
 

@@ -28,6 +28,7 @@ Seq[Any](_display_(/*1.2*/main("Welcome to Play! Login Sample")/*1.39*/ {_displa
     <ul>
         <li><a href=""""),_display_(/*8.23*/routes/*8.29*/.Authentication.login),format.raw/*8.50*/("""">Login</a></li>
         <li><a href=""""),_display_(/*9.23*/routes/*9.29*/.Restricted.index),format.raw/*9.46*/("""">Restricted Area</a></li>
+        <li><a href=""""),_display_(/*10.23*/routes/*10.29*/.Authentication.create),format.raw/*10.51*/("""">Create User</a></li>
     </ul>
 
 """)))}))}
@@ -42,11 +43,11 @@ Seq[Any](_display_(/*1.2*/main("Welcome to Play! Login Sample")/*1.39*/ {_displa
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Oct 09 13:31:14 IRST 2016
+                  DATE: Mon Oct 10 13:24:19 IRST 2016
                   SOURCE: D:/project/Lesson1/justplayscala/app/views/index.scala.html
-                  HASH: 3ebf3f044d85af1a8f2986ce23391de5b73219ae
-                  MATRIX: 580->1|625->38|664->40|698->48|864->188|878->194|919->215|985->255|999->261|1036->278
-                  LINES: 22->1|22->1|22->1|24->3|29->8|29->8|29->8|30->9|30->9|30->9
+                  HASH: 8a8c637a6edefdf5c2b8e56a02c8457f235432ca
+                  MATRIX: 580->1|625->38|664->40|698->48|864->188|878->194|919->215|985->255|999->261|1036->278|1113->328|1128->334|1171->356
+                  LINES: 22->1|22->1|22->1|24->3|29->8|29->8|29->8|30->9|30->9|30->9|31->10|31->10|31->10
                   -- GENERATED --
               */
           

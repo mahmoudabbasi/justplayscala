@@ -9,6 +9,8 @@ GET     /                           controllers.Application.index
 GET     /login                      controllers.Authentication.login
 POST    /login                      controllers.Authentication.authenticate
 GET     /logout                     controllers.Authentication.logout
+GET     /create                     controllers.Authentication.create
+POST    /createuser                 controllers.Authentication.authenticate1
 
 # Restricted content
 GET     /restricted                 controllers.Restricted.index

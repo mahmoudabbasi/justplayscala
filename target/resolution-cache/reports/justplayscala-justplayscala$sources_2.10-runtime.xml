@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161009140858"/>
+		date="20161010123028"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-ws_2.10">
 			<revision name="2.3.4" status="release" pubdate="20150421195505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="38">
@@ -17,7 +17,7 @@
 					<artifact name="play-ws_2.10" type="jar" ext="jar" status="no" details="" size="610848" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-ws_2.10\jars\play-ws_2.10-2.3.4.jar">
 						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-ws_2.10/2.3.4/play-ws_2.10-2.3.4.jar"/>
 					</artifact>
-					<artifact name="play-ws_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="54827" time="1901" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-ws_2.10\srcs\play-ws_2.10-2.3.4-sources.jar">
+					<artifact name="play-ws_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="54827" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-ws_2.10\srcs\play-ws_2.10-2.3.4-sources.jar">
 						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-ws_2.10/2.3.4/play-ws_2.10-2.3.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -106,7 +106,7 @@
 					<artifact name="play-cache_2.10" type="jar" ext="jar" status="no" details="" size="44270" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-cache_2.10\jars\play-cache_2.10-2.3.4.jar">
 						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-cache_2.10/2.3.4/play-cache_2.10-2.3.4.jar"/>
 					</artifact>
-					<artifact name="play-cache_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7310" time="1457" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-cache_2.10\srcs\play-cache_2.10-2.3.4-sources.jar">
+					<artifact name="play-cache_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7310" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\play-cache_2.10\srcs\play-cache_2.10-2.3.4-sources.jar">
 						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/play-cache_2.10/2.3.4/play-cache_2.10-2.3.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -132,7 +132,7 @@
 				<metadata-artifact status="no" details="" size="3256" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\anorm_2.10\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/play/anorm_2.10/2.3.4/anorm_2.10-2.3.4.pom"/>
 				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="compile, runtime" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="anorm_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25148" time="3422" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\anorm_2.10\srcs\anorm_2.10-2.3.4-sources.jar">
+					<artifact name="anorm_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25148" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\anorm_2.10\srcs\anorm_2.10-2.3.4-sources.jar">
 						<origin-location is-local="false" location="http://dl.bintray.com/typesafe/maven-releases/com/typesafe/play/anorm_2.10/2.3.4/anorm_2.10-2.3.4-sources.jar"/>
 					</artifact>
 					<artifact name="anorm_2.10" type="jar" ext="jar" status="no" details="" size="441652" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.play\anorm_2.10\jars\anorm_2.10-2.3.4.jar">

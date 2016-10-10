@@ -20,8 +20,23 @@ object Authentication extends Controller {
     })
   )
 
+
+  val CreateUser = Form(
+    mapping(
+      "NATIONALCODE" -> text,
+      "NAME" -> text,
+      "PASSWORD" -> text
+    ) (User.apply)(User.unapply)
+  )
+
+
+
   def login = Action { implicit request =>
     Ok(html.login(loginForm))
+  }
+
+  def create =Action { implicit request =>
+    Ok(html.createform(CreateUser))
   }
 
   def logout = Action {
@@ -36,5 +51,20 @@ object Authentication extends Controller {
       user => Redirect(routes.Restricted.index()).withSession("NATIONALCODE" -> user._1)
     )
   }
+
+
+  def authenticate1 = Action {
+    Ok("Hello world")
+    //CreateUser.
+//    CreateUser.bindFromRequest.fold(
+//      formWithErrors => BadRequest(html.createform(formWithErrors)),
+//      user => Redirect(routes.Restricted.index()).withSession("NATIONALCODE" -> user.NATIONALCODE)
+//    )
+  }
+
+
+
+
+
 
 }

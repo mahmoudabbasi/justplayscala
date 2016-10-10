@@ -1,6 +1,6 @@
 // @SOURCE:D:/project/Lesson1/justplayscala/conf/routes
-// @HASH:c861d092282712d9e90a2aec1c0ccf86f3bd9258
-// @DATE:Sun Oct 09 13:31:13 IRST 2016
+// @HASH:a915d7c7ecf7c5030ce52c6db2b5b53606d37c15
+// @DATE:Mon Oct 10 13:41:08 IRST 2016
 
 package controllers;
 

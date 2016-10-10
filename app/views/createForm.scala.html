@@ -1,15 +1,38 @@
-@import models.Employee
-@(employeeForm: Form[Employee])
+@(form: Form[User])(implicit flash: Flash)
+
+@main("Welcome to Create User Design") {
+
+  <h1>Create Login</h1>
+
+  @helper.form(routes.Authentication.authenticate1) {
+
+    @form.globalError.map { error =>
+      <p class="error">
+        @error.message
+      </p>
+    }
+
+    @flash.get("success").map { message =>
+      <p class="success">
+        @message
+      </p>
+    }
+
+    <p>
+      <input type="email" name="NATIONALCODE" placeholder="Email" id="NATIONALCODE" placeholder="nationalCode" >
+    </p>
+    <p>
+      <input type="text" name="NAME" placeholder="Name" id="NAME" placeholder="Name">
+    </p>
+
+    <p>
+      <input type="password" name="PASSWORD" id="PASSWORD" placeholder="Password">
+    </p>
+    <p>
+      <button type="submit" id="loginbutton">Login</button>
+    </p>
+
+  }
 
 
-
-
-@main("Employee-Self-Service") {
-  <!-- Begin page content -->
-  <div class="container">
-    <div class="page-header">
-      <h1>Add an employee</h1>
-    </div>
-
-  </div>
 }
