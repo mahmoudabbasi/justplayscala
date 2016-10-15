@@ -1,10 +1,8 @@
 @(form: Form[(String,String)])(implicit flash: Flash)
 
-@main("Welcome to Play! Login Sample - Restricted Area") {
+@main("sample valid") {
 
-  <h1>login user</h1>
 
-  <p>Please provide your credentials.</p>
 
   @helper.form(routes.Authentication.authenticate) {
 
@@ -20,6 +18,12 @@
       </p>
     }
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-6">
+          <h1>login user</h1>
+
+          <p>Please your credentials.</p>
     <p>
       <input type="email" name="NATIONALCODE" placeholder="Email" id="NATIONALCODE" value="@form("NATIONALCODE").value">
     </p>
@@ -30,9 +34,10 @@
       <button type="submit" id="loginbutton">Login</button>
     </p>
 
+    </div>
+    </div>
+    </div>
   }
 
-  <p class="note">
-    Try <em>user1@@company.com</em> with <em>secret</em> as password.
-  </p>
+
 }

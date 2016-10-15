@@ -32,13 +32,16 @@ Seq[Any](format.raw/*1.32*/("""
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     </head>
 
     <body>
-       """),_display_(/*18.9*/content),format.raw/*18.16*/("""
+       """),_display_(/*21.9*/content),format.raw/*21.16*/("""
 
-    """),format.raw/*20.5*/("""</body>
+    """),format.raw/*23.5*/("""</body>
 </html>"""))}
   }
 
@@ -51,11 +54,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Oct 09 13:31:14 IRST 2016
+                  DATE: Sat Oct 15 13:05:43 IRST 2016
                   SOURCE: D:/project/Lesson1/justplayscala/app/views/main.scala.html
-                  HASH: 73d104c546b92954cd8e811915a1bcfd05c0780d
-                  MATRIX: 509->1|627->31|655->33|733->85|758->90|803->198|839->207|1253->595|1281->602|1314->608
-                  LINES: 19->1|22->1|24->3|29->8|29->8|30->9|31->10|39->18|39->18|41->20
+                  HASH: 0a87eadce0b6ee235f3fcc4227c69940546b0cab
+                  MATRIX: 509->1|627->31|655->33|733->85|758->90|803->198|839->207|1560->902|1588->909|1621->915
+                  LINES: 19->1|22->1|24->3|29->8|29->8|30->9|31->10|42->21|42->21|44->23
                   -- GENERATED --
               */
           

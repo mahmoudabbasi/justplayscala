@@ -1,9 +1,87 @@
-2016-10-10 14:12:46,224 - [INFO] - from play in pool-4-thread-5 
+2016-10-15 13:05:42,372 - [INFO] - from play in pool-4-thread-1 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-10-10 14:13:16,860 - [INFO] - from play in play-internal-execution-context-1 
+2016-10-15 13:05:57,587 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
 
-2016-10-10 14:13:26,440 - [INFO] - from play in play-internal-execution-context-1 
+2016-10-15 13:08:48,137 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:13:39,938 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:13:44,107 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:16:19,625 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:16:19,639 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:21:23,292 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:21:23,306 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:21:41,852 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:21:41,868 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:22:32,369 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:22:32,384 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:24:18,087 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:24:18,100 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:25:59,166 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:25:59,180 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:27:06,803 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:27:06,818 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:27:58,932 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:27:58,945 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:28:59,864 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:28:59,876 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:29:19,707 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:29:19,719 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:29:33,078 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:29:33,093 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-10-15 13:30:09,706 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-15 13:30:09,718 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 

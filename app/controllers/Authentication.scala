@@ -1,9 +1,9 @@
 package controllers
 
 import models.User
-import play.api.mvc._
-import play.api.data._
 import play.api.data.Forms._
+import play.api.data._
+import play.api.mvc._
 import views.html
 
 /**
@@ -15,18 +15,20 @@ object Authentication extends Controller {
     tuple(
       "NATIONALCODE" -> text,
       "PASSWORD" -> text
-    ) verifying ("Invalid email or password", result => result match {
+    )
+     verifying ("Invalid email or password", result => result match {
       case (nationalCode, password) => User.authendicate(nationalCode, password).isDefined
     })
   )
 
 
   val CreateUser = Form(
-    mapping(
+    tuple(
       "NATIONALCODE" -> text,
       "NAME" -> text,
       "PASSWORD" -> text
-    ) (User.apply)(User.unapply)
+    )
+
   )
 
 
@@ -54,16 +56,34 @@ object Authentication extends Controller {
 
 
   def authenticate1 = Action {
-    Redirect(routes.successed.index).withNewSession.flashing(
-      "success" -> "You've been logged out"
+    implicit request2flash2 =>
+
+    CreateUser.bindFromRequest().fold(
+      formWithErrors => {
+        // do something with the bad form, like reshow the view
+        Ok("got a bad form")
+      },
+      submission => {
+        User.createUser(submission._1,submission._2,submission._3)
+        Redirect(routes.successed.index).withSession("NATIONALCODE" -> submission._1)
+//          .withNewSession.flashing(
+//           "success" -> "You've been logged out"
+//          )
+      }
     )
+
+    //User.createUser(User,NAME,PASSWORD)
+    //Redirect(routes.successed.index).withNewSession.flashing(
+    //   "success" -> "You've been logged out"
+    //  )
     //Ok("Hello world")
     //CreateUser.
-//    CreateUser.bindFromRequest.fold(
-//      formWithErrors => BadRequest(html.createform(formWithErrors)),
-//      user => Redirect(routes.Restricted.index()).withSession("NATIONALCODE" -> user.NATIONALCODE)
-//    )
+    //    CreateUser.bindFromRequest.fold(
+    //      formWithErrors => BadRequest(html.createform(formWithErrors)),
+    //      user => Redirect(routes.Restricted.index()).withSession("NATIONALCODE" -> user.NATIONALCODE)
+    //    )
   }
+
 
 
 
