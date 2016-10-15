@@ -1,14 +1,19 @@
 @(user: models.User)
 
 @main("scala test login") {
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-4">
+    <h1>login test valid user</h1>
 
-  <h1>login test valid user</h1>
+    <p>You are logged in as @user.NAME / @user.NATIONALCODE</p>
 
-  <p>You are logged in as @user.NAME / @user.NATIONALCODE</p>
-
-  <ul>
-    <li><a href="@routes.Authentication.logout">Logout</a></li>
-    <li><a href="@routes.Restricted.index">Restricted Area</a></li>
-  </ul>
+    <ul>
+        <li><a href="@routes.Authentication.logout">Logout</a></li>
+        <li><a href="@routes.Restricted.index">Restricted Area</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
 
 }

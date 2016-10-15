@@ -39,7 +39,7 @@ Seq[Any](format.raw/*1.32*/("""
     </head>
 
     <body>
-       """),_display_(/*21.9*/content),format.raw/*21.16*/("""
+    """),_display_(/*21.6*/content),format.raw/*21.13*/("""
 
     """),format.raw/*23.5*/("""</body>
 </html>"""))}
@@ -54,10 +54,10 @@ Seq[Any](format.raw/*1.32*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Oct 15 13:05:43 IRST 2016
+                  DATE: Sat Oct 15 13:38:33 IRST 2016
                   SOURCE: D:/project/Lesson1/justplayscala/app/views/main.scala.html
-                  HASH: 0a87eadce0b6ee235f3fcc4227c69940546b0cab
-                  MATRIX: 509->1|627->31|655->33|733->85|758->90|803->198|839->207|1560->902|1588->909|1621->915
+                  HASH: 5cf3655a1931aeae85f65912e37a37f0f03b29a4
+                  MATRIX: 509->1|627->31|655->33|733->85|758->90|803->198|839->207|1557->899|1585->906|1618->912
                   LINES: 19->1|22->1|24->3|29->8|29->8|30->9|31->10|42->21|42->21|44->23
                   -- GENERATED --
               */

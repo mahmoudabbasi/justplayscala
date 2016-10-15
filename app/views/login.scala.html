@@ -1,43 +1,45 @@
-@(form: Form[(String,String)])(implicit flash: Flash)
+@(form: Form[(String, String)])(implicit flash: Flash)
 
 @main("sample valid") {
 
 
+    @helper.form(routes.Authentication.authenticate) {
 
-  @helper.form(routes.Authentication.authenticate) {
 
-    @form.globalError.map { error =>
-      <p class="error">
-        @error.message
-      </p>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-4">
+                    @form.globalError.map { error =>
+                        <p class="error">
+                            @error.message
+                        </p>
+                    }
+                    @flash.get("success").map { message =>
+                        <p class="success">
+                            @message
+                        </p>
+                    }
+                    <h1>login user</h1>
+
+                    <p>Please your credentials.</p>
+
+                    <form role="form" data-toggle="validator">
+                        <div class="form-group">
+                            <input class="form-control" type="email" name="NATIONALCODE" placeholder="Email" id="NATIONALCODE" value="@form("NATIONALCODE").value" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" name="PASSWORD" id="PASSWORD" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-default" type="submit" id="loginbutton">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     }
-
-    @flash.get("success").map { message =>
-      <p class="success">
-        @message
-      </p>
-    }
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-6">
-          <h1>login user</h1>
-
-          <p>Please your credentials.</p>
-    <p>
-      <input type="email" name="NATIONALCODE" placeholder="Email" id="NATIONALCODE" value="@form("NATIONALCODE").value">
-    </p>
-    <p>
-      <input type="password" name="PASSWORD" id="PASSWORD" placeholder="Password">
-    </p>
-    <p>
-      <button type="submit" id="loginbutton">Login</button>
-    </p>
-
-    </div>
-    </div>
-    </div>
-  }
 
 
 }
