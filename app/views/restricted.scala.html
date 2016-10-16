@@ -1,19 +1,53 @@
 @(user: models.User)
 
 @main("scala test login") {
-    <div class="container">
+    <div   class="container">
         <div class="row">
-            <div class="col-md-3 col-md-offset-4">
-    <h1>login test valid user</h1>
+            <div class="col-md-3">
+                You are logged in as @user.NAME / @user.NATIONALCODE
+            </div>
 
-    <p>You are logged in as @user.NAME / @user.NATIONALCODE</p>
+            <div class="col-md-10">
+            </div>
 
-    <ul>
-        <li><a href="@routes.Authentication.logout">Logout</a></li>
-        <li><a href="@routes.Restricted.index">Restricted Area</a></li>
-    </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-1">
+                <a class="btn btn-link" href="@routes.Restricted.index1">Restricted</a>
+            </div>
+            <div class="col-lg-1">
+                <a class="btn btn-link" href="@routes.Authentication.logout">Logout</a>
+            </div>
+            <div class="col-lg-10">
+            </div>
+        </div>
+
+        <form class="form-horizontal">
+            <div class="form-group">
+
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="nationalcode" placeholder="NationalCode" id="nationalcode" placeholder="nationalcode" >
+                </div>
+                <label class="control-label col-sm-2" for="nationalcode">: national code</label>
+            </div>
+            <div class="form-group">
+
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="name" placeholder="Name" id="name" placeholder="name" >
+                </div>
+                <label class="control-label col-sm-2" for="name">:name</label>
+            </div>
+            <div  class="form-group">
+
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="family" placeholder="Family" id="name" placeholder="Family" >
+                </div>
+                <label class="control-label col-sm-2" for="name">:family</label>
+            </div>
+        </form>
+
     </div>
-    </div>
-    </div>
+
 
 }

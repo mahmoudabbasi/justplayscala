@@ -30,6 +30,14 @@ object User {
     }
   }
 
+  def findByNationalCodeStatus(NationalCode: String): Option[User] = {
+    DB.withConnection {
+      implicit connetion =>
+        SQL("select * from PRACTICE.USER where NATIONALCODE={nationalCode}").on(
+          'nationalCode -> NationalCode).as(User.simple.singleOpt)
+    }
+  }
+
   def findAll: Seq[User] = {
     DB.withConnection {
       implicit connetion =>

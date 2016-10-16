@@ -1,0 +1,13 @@
+@import models.Employee
+
+@(employeeForm: Form[Employee])
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f) }
+
+@inputText(employeeForm("NAME"), '_label -> "Name", 'class -> "form-control")
+@inputText(employeeForm("ADDRESS"), '_label -> "Address", 'class -> "form-control")
+@inputText(employeeForm("DOB"), '_label -> "Date of Birth", 'class -> "form-control")
+@inputText(employeeForm("JOININGDATE"), '_label -> "Joining Date", 'class -> "form-control")
+@inputText(employeeForm("DESIGNATION"), '_label -> "Designation", 'class -> "form-control")

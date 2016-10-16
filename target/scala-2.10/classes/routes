@@ -5,16 +5,29 @@
 # Home page
 GET     /                           controllers.Application.index
 
+
+# Restricted content
+GET     /restricted                 controllers.Restricted.index1
+POST    /employees/save             controllers.Restricted.save
+GET     /employees                  controllers.Restricted.list(p:Int ?= 0, s:Int ?= 2, f ?= "" , u ?= "" , e ?= "" )
+GET     /employees/new              controllers.Restricted.create
+POST    /employees/save             controllers.Restricted.save
+GET     /employees/:id              controllers.Restricted.edit(id:Long)
+POST    /employees/:id              controllers.Restricted.update(id:Long)
+POST    /employees/:id/delete       controllers.Restricted.delete(id:Long)
+
+
 # Authentication
 GET     /login                      controllers.Authentication.login
 POST    /login                      controllers.Authentication.authenticate
 GET     /logout                     controllers.Authentication.logout
 GET     /create                     controllers.Authentication.create
 POST    /createuser                 controllers.Authentication.authenticate1
-GET     /success                     controllers.successed.index
+GET     /success                    controllers.successed.index
 
-# Restricted content
-GET     /restricted                 controllers.Restricted.index
+
+
+
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file)

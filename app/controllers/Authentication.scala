@@ -34,6 +34,7 @@ object Authentication extends Controller {
 
   def login = Action { implicit request =>
     Ok(html.login(loginForm))
+
   }
 
   def create = Action { implicit request =>
@@ -46,12 +47,19 @@ object Authentication extends Controller {
     )
   }
 
-  def authenticate = Action { implicit request1 =>
-    loginForm.bindFromRequest.fold(
-      formWithErrors => BadRequest(html.login(formWithErrors)),
-      user => Redirect(routes.Restricted.index()).withSession("NATIONALCODE" -> user._1)
-    )
-  }
+//  def authenticate = Action { implicit request1 =>
+//    loginForm.bindFromRequest.fold(
+//      formWithErrors => BadRequest(html.login(formWithErrors)),
+//      user => Redirect(routes.Restricted.index1).withSession("NATIONALCODE" -> user._1)
+//    )
+//  }
+
+    def authenticate = Action { implicit request1 =>
+      loginForm.bindFromRequest.fold(
+        formWithErrors => BadRequest(html.login(formWithErrors)),
+        user => Redirect(routes.Restricted.index1).withSession("NATIONALCODE" -> user._1 , "NAME"->user._2)
+      )
+    }
 
 
   def authenticate1 = Action {

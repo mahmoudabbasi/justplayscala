@@ -1,0 +1,39 @@
+@import models.Employee
+
+@(id: Long, employeeForm: Form[Employee])
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f) }
+
+@main("Employee-Self-Service") {
+
+  <!-- Begin page content -->
+  <div class="container">
+    <div class="page-header">
+      <h1>Edit employee</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+      @form(routes.Restricted.update(id)) {
+        <fieldset>
+        @formElements(employeeForm)
+        </fieldset>
+
+        <div class="actions">
+          <input type="submit" value="Save this employee"	class="btn btn-primary"> or
+          <a href="@routes.Restricted.list()" class="btn btn-default">Cancel</a>
+        </div>
+      }
+      </div>
+      <div class="col-md-4">
+      @info()
+      </div>
+    </div>
+
+    @form(routes.Restricted.delete(id), 'class -> "topRight") {
+      <input type="submit" value="Delete this employee" class="btn btn-danger">
+      }
+  </div>
+}
