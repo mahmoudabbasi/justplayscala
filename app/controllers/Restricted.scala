@@ -42,7 +42,7 @@ object Restricted extends Controller with Secured
       "ADDRESS" -> nonEmptyText,
       "DOB" -> date("yyyy-MM-dd"),
       "JOININGDATE" -> date("yyyy-MM-dd"),
-      "DESIGNATION" -> nonEmptyText)(Employee.apply)(Employee.unapply))
+      "DESIGNATION" -> nonEmptyText )(Employee.apply)(Employee.unapply))
 
   def create = Action {
     Ok(html.createFormEmployee(employeeForm))

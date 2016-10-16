@@ -9,7 +9,7 @@ GET     /                           controllers.Application.index
 # Restricted content
 GET     /restricted                 controllers.Restricted.index1
 POST    /employees/save             controllers.Restricted.save
-GET     /employees                  controllers.Restricted.list(p:Int ?= 0, s:Int ?= 2, f ?= "" , u ?= "" , e ?= "" )
+GET     /employees                  controllers.Restricted.list(p:Int ?= 1, s:Int ?= 2, f ?= "" , u ?= "" , e ?= "" )
 GET     /employees/new              controllers.Restricted.create
 POST    /employees/save             controllers.Restricted.save
 GET     /employees/:id              controllers.Restricted.edit(id:Long)

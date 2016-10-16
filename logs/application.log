@@ -1,18 +1,18 @@
-2016-10-16 12:20:30,061 - [INFO] - from play in pool-4-thread-3 
+2016-10-16 14:34:31,905 - [INFO] - from play in pool-4-thread-1 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-10-16 12:20:48,110 - [INFO] - from play in play-internal-execution-context-1 
+2016-10-16 14:34:47,852 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
 
-2016-10-16 12:20:48,420 - [INFO] - from play in play-internal-execution-context-1 
+2016-10-16 14:34:48,112 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-10-16 12:23:36,320 - [INFO] - from play in play-internal-execution-context-1 
-database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+2016-10-16 14:35:30,312 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
+Starting application default Akka system.
 
-2016-10-16 12:23:36,367 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
+2016-10-16 14:36:49,215 - [ERROR] - from application in ForkJoinPool-3-worker-7 
+Problem found in employee update process
 
-2016-10-16 12:24:29,647 - [INFO] - from application in ForkJoinPool-3-worker-3 
-Employee mahmoud has been created
+2016-10-16 14:37:12,878 - [ERROR] - from application in ForkJoinPool-3-worker-3 
+Problem found in employee update process
 

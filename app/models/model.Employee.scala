@@ -9,7 +9,7 @@ import play.api.Play.current
 /**
   * Created by Mabbasi on 10/03/2016.
   */
-case class Employee (ID: Long, NAME: String, ADDRESS: String, DOB: Date, JOININGDATE: Date, DESIGNATION: String )
+case class Employee (ID: Long, NAME: String, ADDRESS: String, DOB: Date, JOININGDATE: Date, DESIGNATION: String  )
 
 case class Page[A](items: Seq[A], page: Int, offset: Long, total: Long) {
   lazy val prev = Option(page - 1).filter(_ >= 0)
@@ -20,19 +20,20 @@ object Employee {
 
 
   val employee = {
-    get[Long]("employee.id") ~
+      get[Long]("employee.id") ~
       get[String]("employee.name") ~
       get[String]("employee.address") ~
       get[Date]("employee.dob") ~
       get[Date]("employee.joiningdate") ~
       get[String]("employee.designation") map {
-      case id ~
-        name ~
-        address ~
-        dob ~
-        joiningDate ~
-        designation => Employee(id, name, address, dob, joiningDate, designation)
-    }
+          case id ~
+            name ~
+            address ~
+            dob ~
+            joiningDate ~
+            designation => Employee(id, name, address, dob, joiningDate, designation)
+        }
+
   }
 
   def findById(id:Long) :Option[Employee] ={
@@ -46,13 +47,11 @@ object Employee {
     val offest = pageSize * page
     DB.withConnection { implicit connection=> val employees = SQL(
       """
-          select * from PRACTICE.EMPLOYEE
+        SELECT ID , ADDRESS , DESIGNATION , DOB , JOININGDATE , NAME from (
+          SELECT ID , ADDRESS , DESIGNATION , DOB , JOININGDATE , NAME  , ROW_NUMBER() OVER(ORDER BY ID) AS ROWNUMBER FROM PRACTICE.EMPLOYEE
+        ) WHERE ROWNUMBER BETWEEN """+(((page-1)*pageSize)+1) +""" AND """+(page*pageSize)+""" ORDER BY ID with ur
+
       """
-    ).on(
-      'pageSize -> pageSize,
-      'offset -> offest,
-      'filter -> filter,
-      'orderBy -> orderBy
     ).as(employee *)
 
       val totalRows = SQL(
