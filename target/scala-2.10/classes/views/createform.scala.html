@@ -1,0 +1,44 @@
+@(form: Form[(String, String, String)])(implicit flash: Flash)
+
+    @main("Welcome to Create User Design") {
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-4">
+                    <h1>Create Login</h1>
+
+                    @helper.form(routes.Authentication.authenticate1) {
+
+                        @form.globalError.map { error =>
+                            <p class="alert alert-danger">
+                                @error.message
+                            </p>
+                        }
+
+                        @flash.get("success").map { message =>
+                            <p class="alert alert-success">
+                                @message
+                            </p>
+                        }
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="NATIONALCODE" placeholder="Email" id="NATIONALCODE" placeholder="nationalCode" >
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="NAME" placeholder="Name" id="NAME" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="password" name="PASSWORD" id="PASSWORD" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-default" type="submit" id="loginbutton">Login</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+
+    }
+
+
+    }
