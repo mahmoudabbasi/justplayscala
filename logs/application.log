@@ -1,3 +1,9 @@
-2016-10-17 08:47:31,895 - [INFO] - from play in pool-4-thread-4 
+2016-10-17 10:55:27,986 - [INFO] - from play in pool-4-thread-5 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-10-17 10:55:48,552 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:db2://192.168.53.62:50000/startapi
+
+2016-10-17 10:55:48,768 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
 

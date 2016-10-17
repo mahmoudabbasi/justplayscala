@@ -13,6 +13,8 @@ case class User(NATIONALCODE: String, NAME: String, PASSWORD: String)
 
 object User {
 
+
+
   //  Parse a User from a ResultSet
   val simple = {
     get[String]("user.NATIONALCODE") ~
@@ -30,13 +32,24 @@ object User {
     }
   }
 
-  def findByNationalCodeStatus(NationalCode: String): Option[User] = {
+//  def findByNationalCodeStatus(maybeString: Option[String]) = Option[User] = {
+//    DB.withConnection {
+//      implicit connetion =>
+//        SQL("select * from PRACTICE.USER where NATIONALCODE={nationalCode}").on(
+//          'nationalCode -> maybeString).as(User.simple.singleOpt)
+//    }
+//  }
+
+  def findByNationalCodeStatus(NationalCode: Option[String]): Option[User] = {
     DB.withConnection {
       implicit connetion =>
         SQL("select * from PRACTICE.USER where NATIONALCODE={nationalCode}").on(
           'nationalCode -> NationalCode).as(User.simple.singleOpt)
     }
   }
+
+
+
 
   def findAll: Seq[User] = {
     DB.withConnection {

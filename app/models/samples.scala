@@ -16,7 +16,7 @@ object samples {
     println("factorial0: "+factorial(0))
     println("factorial1: "+factorial(1))
     println("factorial2: "+factorial(3))
-    println("factorial100: "+factorial(10))
+    println("factorial100: "+factorial(5))
 
   }
 
@@ -56,8 +56,8 @@ object samples {
        process(xs)
   }
   /////////////////////////factorial
-  def factorial(i:Int):BigDecimal = {
-    def fact(i: Int, accumulator: BigDecimal): BigDecimal = {
+  def factorial(i:Int):Int = {
+    def fact(i: Int, accumulator: Int): Int = {
       if (i <= 1)
         accumulator
       else
@@ -65,5 +65,7 @@ object samples {
     }
     fact(i,1)
   }
+
+
 
 }

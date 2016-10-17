@@ -1,6 +1,5 @@
 package controllers
 
-import models.User
 import play.api.mvc._
 
 /**
@@ -20,14 +19,14 @@ trait Secured {
     }
   }
 
-  def IsAuthenticatedNew(f:String):Boolean = {
-    val x1 = User.findByNationalCodeStatus(f)
-
-    if (x1.isDefined)
-    {true}
-    else
-    {false}
-
-  }
+//  def IsAuthenticatedNew(username:String):Boolean = {
+//    val x1 = User.findByNationalCodeStatus(username)
+//
+//    if (x1.isDefined)
+//    {true}
+//    else
+//    {false}
+//
+//  }
 
 }

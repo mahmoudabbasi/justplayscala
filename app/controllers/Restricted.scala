@@ -62,13 +62,28 @@ object Restricted extends Controller with Secured
 //  }
 
 
+  def IsAuthenticatedNew(maybeString: Option[String]):Boolean = {
+    val x1= User.findByNationalCodeStatus(maybeString)
 
+    x1 match {
+      case Some(x1) => true
+      case null => false
+    }
+//     if (x1 != null) {
+//       true
+//     }
+//     else
+//     {
+//       false
+//     }
+  }
 
-
-  def index1 = Action {
-     val status = IsAuthenticatedNew("mahmoud")
-
-    HomeRestricted
+  def index1 = Action { implicit req=>
+    val status = IsAuthenticatedNew(req.session.get("NATIONALCODE"))
+    if (status)
+      HomeRestricted
+    else
+      HomeRestricted
   }
 
 
