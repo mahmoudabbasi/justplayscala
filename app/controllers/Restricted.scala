@@ -61,7 +61,6 @@ object Restricted extends Controller with Secured
 //      }.getOrElse(Forbidden)
 //  }
 
-
   def IsAuthenticatedNew(maybeString: Option[String]):Boolean = {
     val x1= User.findByNationalCodeStatus(maybeString)
 
@@ -69,13 +68,6 @@ object Restricted extends Controller with Secured
       case Some(x1) => true
       case null => false
     }
-//     if (x1 != null) {
-//       true
-//     }
-//     else
-//     {
-//       false
-//     }
   }
 
   def index1 = Action { implicit req=>

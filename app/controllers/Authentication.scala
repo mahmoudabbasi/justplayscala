@@ -39,6 +39,7 @@ object Authentication extends Controller {
 
   def create = Action { implicit request =>
     Ok(html.createform(CreateUser))
+
   }
 
   def logout = Action {
