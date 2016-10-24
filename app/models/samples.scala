@@ -1,7 +1,6 @@
 package models
 
 
-
 /**
   * Created by Mabbasi on 10/16/2016.
   */
@@ -116,7 +115,7 @@ object samples {
     val student = ("Andrew", 1201)
     println("tuples:"+student.getClass)
 
-
+   ////////////////connect to database
 
   }
 
