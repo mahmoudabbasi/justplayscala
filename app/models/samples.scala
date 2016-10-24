@@ -1,5 +1,7 @@
 package models
 
+
+
 /**
   * Created by Mabbasi on 10/16/2016.
   */
@@ -109,6 +111,13 @@ object samples {
     val resource1 = resourceFromConfigDir1 orElse resourceFromClasspath1
     println(resource1)
 
+
+    /////////////tuples
+    val student = ("Andrew", 1201)
+    println("tuples:"+student.getClass)
+
+
+
   }
 
   def method1(str:String):Int={
@@ -179,13 +188,7 @@ def greeting(language:String) =(s:String) =>
   class Container1[A<% String] { def addIt(x:A)="123"+x}
 
 
-  case class User(
-                 id:Int ,
-                 firstName:String ,
-                 lastName:String ,
-                 age:Int ,
-                 gender:Option[String]
-                 )
+  case class User( id:Int , firstName:String , lastName:String , age:Int , gender:Option[String] )
   object userRepository {
     private val users=Map(1->User(1,"John","Doe",32,Some("male")),
       2->User(2,"Johanna","Doe",30,None))
@@ -195,5 +198,12 @@ def greeting(language:String) =(s:String) =>
 
 
   case class Resource(content: String)
+
+
+ /////////////////////////////////////////////////
+
+
+
+
 
 }
