@@ -200,8 +200,8 @@ def greeting(language:String) =(s:String) =>
 
 
  /////////////////////////////////////////////////
-
-
+ //val suppliers: TableQuery[Suppliers] = TableQuery[Suppliers]
+ //DriverHelper.init(suppliers)
 
 
 

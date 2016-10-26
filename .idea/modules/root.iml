@@ -23,9 +23,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="SBT: cglib:cglib-nodep:2.1_3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.slick:slick_2.10:2.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.slick:slick-extensions_2.10:2.0.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:slf4j-nop:1.6.4:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.10:2.2.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe.slick:slick_2.10:2.1.0:jar" level="project" />
     <orderEntry type="module-library">
       <library name="SBT: unmanaged-jars">
         <CLASSES>

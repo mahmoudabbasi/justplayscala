@@ -7,10 +7,10 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161024113612"/>
+		date="20161026143538"/>
 	<dependencies>
 		<module organisation="org.slf4j" name="slf4j-nop">
-			<revision name="1.6.4" status="release" pubdate="20111031184556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="47">
+			<revision name="1.6.4" status="release" pubdate="20111031184556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="48">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="4282" time="0" location="C:\Users\Mabbasi\.ivy2\cache\org.slf4j\slf4j-nop\ivy-1.6.4.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Mabbasi\.ivy2\local\org.slf4j\slf4j-nop\1.6.4\ivys\ivy.xml"/>
 				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.0-SNAPSHOT"/>
@@ -24,17 +24,30 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.typesafe.slick" name="slick_2.10">
-			<revision name="2.1.0" status="release" pubdate="20160821152324" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="46">
-				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="2989" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick_2.10\ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="http://192.168.53.58:8081/artifactory/remote-repos/com/typesafe/slick/slick_2.10/2.1.0/slick_2.10-2.1.0.pom"/>
-				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="1.0-SNAPSHOT"/>
+		<module organisation="com.typesafe.slick" name="slick-extensions_2.10">
+			<revision name="2.0.0" status="release" pubdate="20150429013056" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="47">
+				<license name="Typesafe Subscription Agreement" url="http://typesafe.com/public/legal/TypesafeSubscriptionAgreement-v1.pdf"/>
+				<metadata-artifact status="no" details="" size="2773" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick-extensions_2.10\ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="slick_2.10" type="jar" ext="jar" status="no" details="" size="3889528" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick_2.10\jars\slick_2.10-2.1.0.jar">
-						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/com/typesafe/slick/slick_2.10/2.1.0/slick_2.10-2.1.0.jar"/>
+					<artifact name="slick-extensions_2.10" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+					<artifact name="slick-extensions_2.10" type="jar" ext="jar" status="no" details="" size="132141" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick-extensions_2.10\jars\slick-extensions_2.10-2.0.0.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0.jar"/>
 					</artifact>
-					<artifact name="slick_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="230839" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick_2.10\srcs\slick_2.10-2.1.0-sources.jar">
-						<origin-location is-local="false" location="http://192.168.53.58:8081/artifactory/remote-repos/com/typesafe/slick/slick_2.10/2.1.0/slick_2.10-2.1.0-sources.jar"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.10">
+			<revision name="2.0.0" status="release" pubdate="20140117161439" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="46">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2854" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick_2.10\ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0.pom"/>
+				<caller organisation="justplayscala" name="justplayscala$sources_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slick_2.10" type="jar" ext="jar" status="no" details="" size="3572175" time="0" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick_2.10\jars\slick_2.10-2.0.0.jar">
+						<origin-location is-local="false" location="http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0.jar"/>
+					</artifact>
+					<artifact name="slick_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="211113" time="5997" location="C:\Users\Mabbasi\.ivy2\cache\com.typesafe.slick\slick_2.10\srcs\slick_2.10-2.0.0-sources.jar">
+						<origin-location is-local="false" location="http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

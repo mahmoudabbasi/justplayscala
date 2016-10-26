@@ -4,7 +4,7 @@
 		module="justplayscala_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20161024113527"
+		publication="20161026144107"
 	>
 		<description>
 		justplayscala
@@ -42,7 +42,8 @@
 		<dependency org="com.typesafe.play" name="anorm_2.10" rev="2.3.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.10" rev="2.3.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ws_2.10" rev="2.3.4" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.slick" name="slick_2.10" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick_2.10" rev="2.0.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick-extensions_2.10" rev="2.0.0" conf="compile->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-nop" rev="1.6.4" conf="compile->default(compile)"/>
 		<dependency org="com.h2database" name="h2" rev="1.3.175" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.2.4" conf="test->default(compile)"/>
