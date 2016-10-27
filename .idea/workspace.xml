@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76b06b6-f6a5-4d27-8568-cae1bd988ae6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_slick_slick_extensions_2_10_2_0_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/model/slick/Hello.scala" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$Routes$$controllers_Assets_versioned1_invoker$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$Routes$$controllers_Assets_versioned5_invoker$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$Routes$$controllers_Assets_versioned7_invoker$1.class" afterPath="" />
@@ -43,6 +43,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/model/slick/BaseTable.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/model/slick/DriverHelper$.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/model/slick/DriverHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/model/slick/Profile.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/model/slick/WorkflowBaseEntity.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/model/slick/WorkflowBaseTable.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$Routes$$controllers_Assets_versioned1_invoker$1.class" afterPath="" />
@@ -63,54 +64,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesuccessed$$anonfun$index$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$13.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$greeting$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$greeting$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$10$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$10$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$10.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$11$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$11$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$11.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$12.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$13.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$8$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$8$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$8.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$9$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$9$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$9.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$main$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$saySomeThings$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$$anonfun$saySomeThings$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Container.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Container.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Container1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Container1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Resource$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Resource$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Resource.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$Resource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$User$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$User$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$User.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$userRepository$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/models/samples$userRepository$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/model/slick/BaseRepositorySlick.scala" afterPath="$PROJECT_DIR$/app/models/model/slick/BaseRepositorySlick.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/samples.scala" afterPath="$PROJECT_DIR$/app/models/samples.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/justplayscala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/justplayscala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/justplayscala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/justplayscala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
@@ -129,8 +87,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-justplayscala-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-justplayscala-build-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
@@ -174,16 +130,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_slick_slick_2_10_2_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_slick_slick_2_10_2_0_0_jar.xml" />
     </list>
     <ignored path="justplayscala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -227,15 +179,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseRepositorySlick.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseRepositorySlick.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model/slick/BaseRepositorySlick.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding>
-                <element signature="e#602#1134#0" expanded="false" />
-                <element signature="e#1137#1640#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="641">
+              <caret line="49" column="3" selection-start-line="40" selection-start-column="0" selection-end-line="49" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,9 +204,35 @@
       <file leaf-file-name="Application.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="-3">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hello.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/model/slick/Hello.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="e#28#73#0" expanded="true" />
+                <element signature="e#1110#1516#0" expanded="false" />
+                <element signature="e#1623#2018#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/User.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+              <folding>
+                <element signature="e#16#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,7 +240,7 @@
       <file leaf-file-name="Authentication.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Authentication.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
+            <state relative-caret-position="595">
               <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding>
                 <element signature="e#21#39#0" expanded="true" />
@@ -277,7 +252,7 @@
       <file leaf-file-name="Restricted.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Restricted.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="782">
               <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <element signature="e#21#65#0" expanded="true" />
@@ -289,9 +264,11 @@
       <file leaf-file-name="model.Employee.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model.Employee.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="442">
               <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-              <folding />
+              <folding>
+                <element signature="e#16#37#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -299,7 +276,7 @@
       <file leaf-file-name="samples.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/samples.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
+            <state relative-caret-position="2958">
               <caret line="193" column="51" selection-start-line="193" selection-start-column="51" selection-end-line="193" selection-end-column="51" />
               <folding>
                 <element signature="e#3778#3923#0" expanded="false" />
@@ -367,8 +344,9 @@
         <option value="$PROJECT_DIR$/app/models/model/slick/sample.scala" />
         <option value="$PROJECT_DIR$/app/models/User.scala" />
         <option value="$PROJECT_DIR$/app/models/samples.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/app/models/model/slick/BaseRepositorySlick.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/app/models/model/slick/Hello.scala" />
       </list>
     </option>
   </component>
@@ -443,15 +421,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="justplayscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="justplayscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="justplayscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="justplayscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="justplayscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="justplayscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slick" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,7 +505,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="D:/Projects/lesson1/sample-play-scala" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SpringMVC-master/SpringMVC-master" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
   </component>
@@ -471,7 +515,7 @@
       <recent name="D:\project\Lesson1\justplayscala\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Play 2 App.playframeworks_server">
+  <component name="RunManager" selected="Application.Hello">
     <configuration default="false" name="samples" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -517,6 +561,26 @@
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="consoleArgs" value="-usejavacp" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Hello" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="models.model.slick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="models.model.slick.Hello" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="root" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1009,22 +1073,24 @@
       <setting name="play2isAutoReloadEnabled" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Play 2 App.playframeworks_server" />
       <item index="1" class="java.lang.String" itemvalue="Application.samples" />
       <item index="2" class="java.lang.String" itemvalue="Application.DriverHelper" />
       <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Hello" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.DriverHelper" />
-        <item index="1" class="java.lang.String" itemvalue="Application.samples" />
-        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Hello" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DriverHelper" />
+        <item index="2" class="java.lang.String" itemvalue="Application.samples" />
+        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1477479959521" />
+    <option name="lastUpdateTimestamp" value="1477556365051" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1101,12 +1167,13 @@
       <workItem from="1477285081819" duration="18092000" />
       <workItem from="1477369362367" duration="3024000" />
       <workItem from="1477384821571" duration="9749000" />
-      <workItem from="1477456547512" duration="9839000" />
+      <workItem from="1477456547512" duration="13253000" />
+      <workItem from="1477546792895" duration="9946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174986000" />
+    <option name="totallyTimeSpent" value="188346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1144,7 +1211,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29220778" sideWeight="0.4884058" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24360341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24200426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1337,8 +1404,24 @@
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/models/model/slick/Hello.scala</url>
+          <line>30</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/models/model/slick/Hello.scala</url>
+          <line>23</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="67" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1347,8 +1430,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/login.scala" />
-    <entry file="file://$PROJECT_DIR$/app/views/login.html" />
     <entry file="file://$PROJECT_DIR$/app/controllers/package.scala" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/02cc71b9-7423-4bb4-88b3-be232cbaac07/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -1608,8 +1689,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model.Employee.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="442">
           <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="e#16#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Authentication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Restricted.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="e#21#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/samples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="193" column="51" selection-start-line="193" selection-start-column="51" selection-end-line="193" selection-end-column="51" />
+          <folding>
+            <element signature="e#3778#3923#0" expanded="false" />
+            <element signature="e#3928#3963#0" expanded="false" />
+            <element signature="e#4073#4314#0" expanded="false" />
+            <element signature="e#4317#4540#0" expanded="false" />
+            <element signature="e#4387#4522#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model/slick/BaseRepositorySlick.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="49" column="3" selection-start-line="40" selection-start-column="0" selection-end-line="49" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1626,63 +1751,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="-3">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Authentication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="e#21#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Restricted.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-          <folding>
-            <element signature="e#21#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="1105">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
           <folding>
             <element signature="e#16#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/samples.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.slick/slick_2.10/srcs/slick_2.10-2.0.0-sources.jar!/scala/slick/jdbc/JdbcBackend.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="193" column="51" selection-start-line="193" selection-start-column="51" selection-end-line="193" selection-end-column="51" />
-          <folding>
-            <element signature="e#3778#3923#0" expanded="false" />
-            <element signature="e#3928#3963#0" expanded="false" />
-            <element signature="e#4073#4314#0" expanded="false" />
-            <element signature="e#4317#4540#0" expanded="false" />
-            <element signature="e#4387#4522#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="201">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/model/slick/BaseRepositorySlick.scala">
+    <entry file="file://$PROJECT_DIR$/app/models/model/slick/Hello.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="369">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
-            <element signature="e#602#1134#0" expanded="false" />
-            <element signature="e#1137#1640#0" expanded="false" />
+            <element signature="e#28#73#0" expanded="true" />
+            <element signature="e#1110#1516#0" expanded="false" />
+            <element signature="e#1623#2018#0" expanded="false" />
           </folding>
         </state>
       </provider>

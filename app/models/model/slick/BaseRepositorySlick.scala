@@ -1,7 +1,6 @@
 package models.model.slick
 
 
-
 /**
   * Created by Mabbasi on 10/24/2016.
   */

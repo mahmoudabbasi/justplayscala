@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27406a18
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@236d84dc
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.10;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@141877b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2467b08b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.10;1.0.2
 [debug] 	local: revision in cache: com.typesafe.play#twirl-api_2.10;1.0.2
 [debug] 	found com.typesafe.play#twirl-api_2.10;1.0.2 in sbt-chain
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49442993
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b1f3659
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	found org.apache.commons#commons-lang3;3.1 in sbt-chain
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@651b9647
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40ed9954
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play_2.10;2.3.4
 [debug] 	found com.typesafe.play#play_2.10;2.3.4 in sbt-chain
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#build-link;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bab3a4e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68141dd3
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#build-link;2.3.4
 [debug] 	found com.typesafe.play#build-link;2.3.4 in sbt-chain
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#build-link;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66247e5c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4888eedf
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-exceptions;2.3.4
 [debug] 	found com.typesafe.play#play-exceptions;2.3.4 in sbt-chain
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.javassist#javassist;3.18.2-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.18.2-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b535073
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76fbea20
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	local: revision in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	found org.javassist#javassist;3.18.2-GA in sbt-chain
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.javassist#javassist;3.18.2-GA [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55ce0da9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c994959
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-iteratees_2.10;2.3.4 in sbt-chain
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.10;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.10;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ca283cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53805ade
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.10;0.7
 [debug] 	local: revision in cache: org.scala-stm#scala-stm_2.10;0.7
 [debug] 	found org.scala-stm#scala-stm_2.10;0.7 in sbt-chain
@@ -88,7 +88,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.10;0.7 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5649e571
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10fba365
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	local: revision in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-json_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@615c4156
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68939508
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-json_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-json_2.10;2.3.4 in sbt-chain
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-json_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19597933
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@524960e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-functional_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-functional_2.10;2.3.4 in sbt-chain
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26a8436c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71d19d78
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-datacommons_2.10;2.3.4 in sbt-chain
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->joda-time#joda-time;2.3 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@250bac37
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@554b2083
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
 [debug] 	local: revision in cache: joda-time#joda-time;2.3
 [debug] 	found joda-time#joda-time;2.3 in sbt-chain
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->joda-time#joda-time;2.3 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.joda#joda-convert;1.6 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fdb0be0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39d16e44
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
 [debug] 	local: revision in cache: org.joda#joda-convert;1.6
 [debug] 	found org.joda#joda-convert;1.6 in sbt-chain
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.joda#joda-convert;1.6 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69dd8515
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55972890
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain
@@ -151,7 +151,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@772bea81
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@461ff4c3
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain
@@ -160,7 +160,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4afbef0d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15c4f5e3
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain
@@ -169,7 +169,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a0ffad9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cbff6c0
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
@@ -179,7 +179,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->io.netty#netty;3.9.3.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.9.3.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@351f0bd4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f52053e
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.9.3.Final
 [debug] 	local: revision in cache: io.netty#netty;3.9.3.Final
 [debug] 	found io.netty#netty;3.9.3.Final in sbt-chain
@@ -188,7 +188,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->io.netty#netty;3.9.3.Final [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@351cf46c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5759a792
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	local: revision in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.2 in sbt-chain
@@ -197,7 +197,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28e71517
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ae73b81
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.6
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.6
 [debug] 	found org.slf4j#slf4j-api;1.7.6 in sbt-chain
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.6 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72ed6876
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3eda82f6
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.6 in sbt-chain
@@ -215,7 +215,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.6 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cec19fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f498839
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.6
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.6
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.6 in sbt-chain
@@ -224,7 +224,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.6 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47fccd53
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ebeeea9
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	found ch.qos.logback#logback-core;1.1.1 in sbt-chain
@@ -233,7 +233,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@685c2e9a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35c2f682
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	found ch.qos.logback#logback-classic;1.1.1 in sbt-chain
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43ccf2f9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21dde8
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.3.4
 [debug] 	found com.typesafe.akka#akka-actor_2.10;2.3.4 in sbt-chain
@@ -251,7 +251,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@780e3ea6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c1cebd3
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.4
 [debug] 	found com.typesafe.akka#akka-slf4j_2.10;2.3.4 in sbt-chain
@@ -260,7 +260,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e294d34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@110cd084
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.9
 [debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
@@ -269,7 +269,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bb4532c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e4579b
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	local: revision in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26a7d943
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@430651e1
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	local: revision in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
@@ -287,7 +287,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e5463a7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1267067b
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	local: revision in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
@@ -296,7 +296,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-jdbc_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13f6681e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47b2a552
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-jdbc_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-jdbc_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-jdbc_2.10;2.3.4 in sbt-chain
@@ -305,7 +305,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)]
 [info] Resolving com.jolbox#bonecp;0.8.0.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a430669
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@714c18b9
 [debug] sbt-chain: module revision found in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	local: revision in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	found com.jolbox#bonecp;0.8.0.RELEASE in sbt-chain
@@ -314,7 +314,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.h2database#h2;1.3.175 [compile->default(compile)]
 [info] Resolving com.h2database#h2;1.3.175 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45ac606e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fca52a5
 [debug] sbt-chain: module revision found in cache: com.h2database#h2;1.3.175
 [debug] 	local: revision in cache: com.h2database#h2;1.3.175
 [debug] 	found com.h2database#h2;1.3.175 in sbt-chain
@@ -323,7 +323,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.h2database#h2;1.3.175 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#anorm_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#anorm_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a3ddbe2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@406875ed
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#anorm_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#anorm_2.10;2.3.4
 [debug] 	found com.typesafe.play#anorm_2.10;2.3.4 in sbt-chain
@@ -332,7 +332,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#anorm_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c87a21d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39a59128
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-cache_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-cache_2.10;2.3.4 in sbt-chain
@@ -341,7 +341,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.8 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@129e7233
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26c5e427
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.8
 [debug] 	local: revision in cache: net.sf.ehcache#ehcache-core;2.6.8
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.8 in sbt-chain
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.8 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-ws_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@161e07c3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b03ff0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-ws_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-ws_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-ws_2.10;2.3.4 in sbt-chain
@@ -359,7 +359,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ff241ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a84c54b
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
 [debug] 	local: revision in cache: com.google.guava#guava;16.0.1
 [debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
@@ -368,7 +368,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.ning#async-http-client;1.8.8 [compile->default(compile)]
 [info] Resolving com.ning#async-http-client;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e4e4e13
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@744ad1ec
 [debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.8.8
 [debug] 	local: revision in cache: com.ning#async-http-client;1.8.8
 [debug] 	found com.ning#async-http-client;1.8.8 in sbt-chain
@@ -377,7 +377,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.ning#async-http-client;1.8.8 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-core;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@617bdf40
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3893140d
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain
@@ -386,7 +386,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2844f25
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f4fe4b1
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	found oauth.signpost#signpost-commonshttp4;1.2.1.2 in sbt-chain
@@ -395,7 +395,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51bfa416
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66359092
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain
@@ -404,7 +404,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75bb3b43
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62abf022
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain
@@ -413,7 +413,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@219bf861
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41ab66eb
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
@@ -422,25 +422,16 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->default(compile)]
 [info] Resolving com.typesafe.slick#slick_2.10;2.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f9c8c9a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68c276e5
 [debug] sbt-chain: module revision found in cache: com.typesafe.slick#slick_2.10;2.0.0
 [debug] 	local: revision in cache: com.typesafe.slick#slick_2.10;2.0.0
 [debug] 	found com.typesafe.slick#slick_2.10;2.0.0 in sbt-chain
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->default(compile)]
-[info] Resolving com.typesafe.slick#slick-extensions_2.10;2.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@793a8234
-[debug] sbt-chain: module revision found in cache: com.typesafe.slick#slick-extensions_2.10;2.0.0
-[debug] 	local: revision in cache: com.typesafe.slick#slick-extensions_2.10;2.0.0
-[debug] 	found com.typesafe.slick#slick-extensions_2.10;2.0.0 in sbt-chain
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-nop;1.6.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8fe90df
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f3773cd
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-nop;1.6.4
 [debug] 	local: revision in cache: org.slf4j#slf4j-nop;1.6.4
 [debug] 	found org.slf4j#slf4j-nop;1.6.4 in sbt-chain
@@ -638,10 +629,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->compile]
@@ -834,10 +821,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->compile]
@@ -1025,10 +1008,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->compile]
@@ -1212,10 +1191,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->compile]
@@ -1396,17 +1371,13 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.3.4 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1609c3fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e5cad76
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.play#play-test_2.10;2.3.4
 [debug] 	found com.typesafe.play#play-test_2.10;2.3.4 in sbt-chain
@@ -1415,7 +1386,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.3.4 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->junit#junit;4.11 [test->default(compile)]
 [info] Resolving junit#junit;4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dfcee26
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b493610
 [debug] sbt-chain: module revision found in cache: junit#junit;4.11
 [debug] 	local: revision in cache: junit#junit;4.11
 [debug] 	found junit#junit;4.11 in sbt-chain
@@ -1424,7 +1395,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->junit#junit;4.11 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c69c38
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69078f6a
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
@@ -1433,7 +1404,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-core_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5147e0a7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2708c1b8
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-core_2.10;2.3.12
 [debug] 	found org.specs2#specs2-core_2.10;2.3.12 in sbt-chain
@@ -1442,7 +1413,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-core_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13db58e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30147b0c
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher_2.10;2.3.12
 [debug] 	found org.specs2#specs2-matcher_2.10;2.3.12 in sbt-chain
@@ -1451,7 +1422,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-common_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ad388f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@983960f
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-common_2.10;2.3.12
 [debug] 	found org.specs2#specs2-common_2.10;2.3.12 in sbt-chain
@@ -1460,7 +1431,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-common_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.10;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f2bcbe8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26aa0941
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.6
 [debug] 	found org.scalaz#scalaz-core_2.10;7.0.6 in sbt-chain
@@ -1469,7 +1440,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.6 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.10;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72c78092
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d97676e
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-concurrent_2.10;7.0.6
 [debug] 	found org.scalaz#scalaz-concurrent_2.10;7.0.6 in sbt-chain
@@ -1478,7 +1449,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.6 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.10;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.10;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a1627e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27054cf9
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.6
 [debug] 	found org.scalaz#scalaz-effect_2.10;7.0.6 in sbt-chain
@@ -1487,7 +1458,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.10;7.0.6 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-junit_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-junit_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ea0af3a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cb5d8dc
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-junit_2.10;2.3.12
 [debug] 	found org.specs2#specs2-junit_2.10;2.3.12 in sbt-chain
@@ -1496,7 +1467,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-junit_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-mock_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-mock_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23e68fb9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e6ce4ef
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-mock_2.10;2.3.12
 [debug] 	found org.specs2#specs2-mock_2.10;2.3.12 in sbt-chain
@@ -1505,7 +1476,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-mock_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.mockito#mockito-core;1.9.5 [test->default(compile)]
 [info] Resolving org.mockito#mockito-core;1.9.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41fc1f20
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12116c50
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5
 [debug] 	local: revision in cache: org.mockito#mockito-core;1.9.5
 [debug] 	found org.mockito#mockito-core;1.9.5 in sbt-chain
@@ -1514,7 +1485,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.mockito#mockito-core;1.9.5 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.objenesis#objenesis;1.0 [test->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ad480ea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@231824d
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.0
 [debug] 	local: revision in cache: org.objenesis#objenesis;1.0
 [debug] 	found org.objenesis#objenesis;1.0 in sbt-chain
@@ -1523,7 +1494,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.objenesis#objenesis;1.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-matcher-extra_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher-extra_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b62e24
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c8f88f
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher-extra_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher-extra_2.10;2.3.12
 [debug] 	found org.specs2#specs2-matcher-extra_2.10;2.3.12 in sbt-chain
@@ -1532,7 +1503,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-matcher-extra_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-analysis_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-analysis_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8ac4069
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41ad85e4
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-analysis_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-analysis_2.10;2.3.12
 [debug] 	found org.specs2#specs2-analysis_2.10;2.3.12 in sbt-chain
@@ -1541,7 +1512,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2-analysis_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19aa78e0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59ec50ba
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
@@ -1550,7 +1521,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#classycle;1.4.3 [test->default(compile)]
 [info] Resolving org.specs2#classycle;1.4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@577ececf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59122db0
 [debug] sbt-chain: module revision found in cache: org.specs2#classycle;1.4.3
 [debug] 	local: revision in cache: org.specs2#classycle;1.4.3
 [debug] 	found org.specs2#classycle;1.4.3 in sbt-chain
@@ -1559,7 +1530,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.specs2#classycle;1.4.3 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.0-M7 [test->default(compile)]
 [info] Resolving org.scalamacros#quasiquotes_2.10;2.0.0-M7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75c7e104
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@354e3bce
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.0-M7
 [debug] 	local: revision in cache: org.scalamacros#quasiquotes_2.10;2.0.0-M7
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.0-M7 in sbt-chain
@@ -1568,7 +1539,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.0-M7 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.novocode#junit-interface;0.11-RC1 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11-RC1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12fbd94d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d69f7bf
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	local: revision in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	found com.novocode#junit-interface;0.11-RC1 in sbt-chain
@@ -1577,7 +1548,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.novocode#junit-interface;0.11-RC1 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67304473
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76bc5096
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	local: revision in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
@@ -1586,7 +1557,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-festassert;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9a73b08
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e8c1ccc
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-festassert;0.9.2 in sbt-chain
@@ -1595,7 +1566,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53c371f1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b2f86b2
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-core;0.9.2 in sbt-chain
@@ -1604,7 +1575,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.9.2 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d497d73
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5423e97
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.39.0 in sbt-chain
@@ -1613,7 +1584,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-android-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37380780
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38763726
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-android-driver;2.39.0 in sbt-chain
@@ -1622,7 +1593,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79b57b89
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70f9cd4e
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.39.0 in sbt-chain
@@ -1631,7 +1602,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@165eb8e0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1be41c1
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	local: revision in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
@@ -1640,7 +1611,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.json#json;20080701 [test->default(compile)]
 [info] Resolving org.json#json;20080701 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@134012a6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@469253cc
 [debug] sbt-chain: module revision found in cache: org.json#json;20080701
 [debug] 	local: revision in cache: org.json#json;20080701
 [debug] 	found org.json#json;20080701 in sbt-chain
@@ -1649,7 +1620,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.json#json;20080701 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cd76497
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c8d82a8
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.39.0 in sbt-chain
@@ -1658,7 +1629,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10d044c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e7d1b45
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.1 in sbt-chain
@@ -1667,7 +1638,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.1 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d951a1d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7896f10
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	found org.apache.httpcomponents#httpcore;4.3 in sbt-chain
@@ -1676,7 +1647,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.3 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47e5a654
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fda874d
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
@@ -1685,7 +1656,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.3 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a8da6ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@243fc886
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
@@ -1694,7 +1665,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51d6fab8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1842c68b
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
@@ -1703,7 +1674,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60c38fa9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@233b5a7c
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
@@ -1712,7 +1683,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1aa6ed91
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5aaa980
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 in sbt-chain
@@ -1721,7 +1692,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13aff88e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31cf629f
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 in sbt-chain
@@ -1730,7 +1701,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10441c04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@480b27ab
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.13 in sbt-chain
@@ -1739,7 +1710,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.13 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bf304a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3be90ec3
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	local: revision in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
@@ -1748,7 +1719,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ac6a735
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42a27aa6
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -1757,7 +1728,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50b9103f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a46e7ee
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.1 in sbt-chain
@@ -1766,7 +1737,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.1 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b2ecde9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e55c6e5
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.13 in sbt-chain
@@ -1775,7 +1746,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.19 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52b0a70f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dc4a07
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	local: revision in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.19 in sbt-chain
@@ -1784,7 +1755,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.11 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f91256b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b3fecfe
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.11 in sbt-chain
@@ -1793,7 +1764,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.11 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2581dd1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f69ec5f
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	local: revision in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
@@ -1802,7 +1773,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28ba5be1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bb6152b
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	local: revision in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
@@ -1811,7 +1782,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73b2ee9f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ab207f0
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 in sbt-chain
@@ -1820,7 +1791,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6da4abf0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fa38f3c
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.12.v20130726 in sbt-chain
@@ -1829,7 +1800,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5006543a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69d99cc6
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.12.v20130726 in sbt-chain
@@ -1838,7 +1809,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@580d288f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ed1ce8e
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.12.v20130726 in sbt-chain
@@ -1847,7 +1818,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42b2983c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7597534c
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 in sbt-chain
@@ -1856,7 +1827,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b8cdcd0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d545c1a
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.39.0 in sbt-chain
@@ -1865,7 +1836,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29730db5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35661f5f
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 in sbt-chain
@@ -1874,7 +1845,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@612caa8c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77ead58e
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.39.0 in sbt-chain
@@ -1883,7 +1854,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77807e89
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cef4535
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	local: revision in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
@@ -1892,7 +1863,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e03aa5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@eefb788
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.39.0 in sbt-chain
@@ -1901,7 +1872,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.39.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->default(compile)]
 [info] Resolving org.easytesting#fest-assert;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58af6ede
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ce78da0
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-assert;1.4
 [debug] 	local: revision in cache: org.easytesting#fest-assert;1.4
 [debug] 	found org.easytesting#fest-assert;1.4 in sbt-chain
@@ -1910,7 +1881,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.easytesting#fest-util;1.1.6 [test->default(compile)]
 [info] Resolving org.easytesting#fest-util;1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@558406fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49f03bde
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-util;1.1.6
 [debug] 	local: revision in cache: org.easytesting#fest-util;1.1.6
 [debug] 	found org.easytesting#fest-util;1.1.6 in sbt-chain
@@ -1919,7 +1890,7 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.easytesting#fest-util;1.1.6 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.scalatest#scalatest_2.10;2.2.4 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.10;2.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d9d8729
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e066f29
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.2.4
 [debug] 	local: revision in cache: org.scalatest#scalatest_2.10;2.2.4
 [debug] 	found org.scalatest#scalatest_2.10;2.2.4 in sbt-chain
@@ -2121,10 +2092,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->compile]
@@ -2319,10 +2286,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile-internal->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile-internal->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile-internal->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile-internal->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile-internal->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile-internal->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile-internal->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile-internal->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile-internal->compile]
@@ -2519,10 +2482,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->compile]
@@ -2715,10 +2674,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->compile]
@@ -2912,10 +2867,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime-internal->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime-internal->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime-internal->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime-internal->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime-internal->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime-internal->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime-internal->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime-internal->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime-internal->compile]
@@ -3116,10 +3067,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [compile->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [compile->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [compile->compile]
@@ -3315,10 +3262,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [runtime->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [runtime->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [runtime->compile]
@@ -3499,10 +3442,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test->compile]
@@ -3917,10 +3856,6 @@
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test-internal->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test-internal->compile]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick_2.10;2.0.0 [test-internal->master]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test-internal->default(compile)]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test-internal->runtime]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test-internal->compile]
-[debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->com.typesafe.slick#slick-extensions_2.10;2.0.0 [test-internal->master]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test-internal->default(compile)]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test-internal->runtime]
 [debug] == resolving dependencies justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-nop;1.6.4 [test-internal->compile]
@@ -4505,50 +4440,7 @@
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.slick#slick_2.10;2.0.0!slick_2.10.jar
-[debug] 		tried C:\Users\Mabbasi\.ivy2\local\com.typesafe.slick\slick_2.10\2.0.0\srcs\slick_2.10-sources.jar
-[debug] 		tried file:/E:/typesafe-activator-1.3.10/activator-dist-1.3.10/repository/com.typesafe.slick/slick_2.10/2.0.0/srcs/slick_2.10-sources.jar
-[debug] 		tried file:/C:/Users/Mabbasi/.activator/repository/com.typesafe.slick/slick_2.10/2.0.0/srcs/slick_2.10-sources.jar
-[debug] 		tried http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0-sources.jar
-[info] downloading http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0-sources.jar ...
-[debug] 	maven-central3_: downloading http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0-sources.jar
-[debug] 	maven-central3_: downloading http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0-sources.jar.sha1
-[debug] sha1 OK for http://central.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.0/slick_2.10-2.0.0-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.slick#slick_2.10;2.0.0!slick_2.10.jar(src) (5997ms)
-[debug] 		tried C:\Users\Mabbasi\.ivy2\local\com.typesafe.slick\slick-extensions_2.10\2.0.0\srcs\slick-extensions_2.10-sources.jar
-[debug] 	[NOT REQUIRED] com.typesafe.slick#slick-extensions_2.10;2.0.0!slick-extensions_2.10.jar
-[debug] 		tried file:/E:/typesafe-activator-1.3.10/activator-dist-1.3.10/repository/com.typesafe.slick/slick-extensions_2.10/2.0.0/srcs/slick-extensions_2.10-sources.jar
-[debug] 		tried file:/C:/Users/Mabbasi/.activator/repository/com.typesafe.slick/slick-extensions_2.10/2.0.0/srcs/slick-extensions_2.10-sources.jar
-[debug] 		tried http://central.maven.org/maven2/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://central.maven.org/maven2/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] 		tried http://dl.bintray.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://dl.bintray.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] 		tried http://dl.bintray.com/typesafe/ivy-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://dl.bintray.com/typesafe/ivy-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[warn] 	[FAILED     ] com.typesafe.slick#slick-extensions_2.10;2.0.0!slick-extensions_2.10.jar(src):  (0ms)
-[warn] ==== local: tried
-[warn]   C:\Users\Mabbasi\.ivy2\local\com.typesafe.slick\slick-extensions_2.10\2.0.0\srcs\slick-extensions_2.10-sources.jar
-[warn] ==== activator-local: tried
-[warn]   file:/E:/typesafe-activator-1.3.10/activator-dist-1.3.10/repository/com.typesafe.slick/slick-extensions_2.10/2.0.0/srcs/slick-extensions_2.10-sources.jar
-[warn] ==== activator-launcher-local: tried
-[warn]   file:/C:/Users/Mabbasi/.activator/repository/com.typesafe.slick/slick-extensions_2.10/2.0.0/srcs/slick-extensions_2.10-sources.jar
-[warn] ==== maven-central3_: tried
-[warn]   http://central.maven.org/maven2/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[warn] ==== maven-central_: tried
-[warn]   http://repo1.maven.org/maven2/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[warn] ==== maven-central1_: tried
-[warn]   http://dl.bintray.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[warn] ==== maven-central2_: tried
-[warn]   http://dl.bintray.com/typesafe/ivy-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[warn] ==== maven-central4_: tried
-[warn]   http://repo.typesafe.com/typesafe/maven-releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
-[warn] ==== Typesafe Releases Repository: tried
-[warn]   http://repo.typesafe.com/typesafe/releases/com/typesafe/slick/slick-extensions_2.10/2.0.0/slick-extensions_2.10-2.0.0-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.slick#slick_2.10;2.0.0!slick_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-nop;1.6.4!slf4j-nop.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-nop;1.6.4!slf4j-nop.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.3!httpcore.jar
@@ -4678,13 +4570,7 @@
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 1713ms :: artifacts dl 18905ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: com.typesafe.slick#slick-extensions_2.10;2.0.0!slick-extensions_2.10.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] :: resolution report :: resolve 1658ms :: artifacts dl 219ms
 [debug] 	report for justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT compile produced in D:\project\Lesson1\justplayscala\target\resolution-cache\reports\justplayscala-justplayscala$sources_2.10-compile.xml
 [debug] 	report for justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT runtime produced in D:\project\Lesson1\justplayscala\target\resolution-cache\reports\justplayscala-justplayscala$sources_2.10-runtime.xml
 [debug] 	report for justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT test produced in D:\project\Lesson1\justplayscala\target\resolution-cache\reports\justplayscala-justplayscala$sources_2.10-test.xml
@@ -4698,4 +4584,4 @@
 [debug] 	report for justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT docs produced in D:\project\Lesson1\justplayscala\target\resolution-cache\reports\justplayscala-justplayscala$sources_2.10-docs.xml
 [debug] 	report for justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT pom produced in D:\project\Lesson1\justplayscala\target\resolution-cache\reports\justplayscala-justplayscala$sources_2.10-pom.xml
 [debug] 	report for justplayscala#justplayscala$sources_2.10;1.0-SNAPSHOT scala-tool produced in D:\project\Lesson1\justplayscala\target\resolution-cache\reports\justplayscala-justplayscala$sources_2.10-scala-tool.xml
-[debug] 	resolve done (1713ms resolve - 18905ms download)
+[debug] 	resolve done (1658ms resolve - 219ms download)
